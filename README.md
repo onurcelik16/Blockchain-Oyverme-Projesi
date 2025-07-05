@@ -25,6 +25,13 @@ Bu proje, Ethereum blockchain'i üzerinde çalışan, MetaMask ile entegre edilm
 
 _Ana sayfa, oy verme ekranı ve sonuç sayfasının ekran görüntülerini buraya ekleyebilirsiniz._
 
+🙏 Teşekkür
+Bu proje, Dr. Öğr. Üyesi Derya Alsancak Arda danışmanlığında ve ekip arkadaşım ile birlikte geliştirilmiştir.
+
+📄 Lisans
+MIT License
+
+
 ## 🛠️ Kurulum
 
 ```bash
@@ -34,3 +41,4 @@ npm install
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 npm start
+MetaMask'i localhost 8545 ağına bağlamayı unutmayın.
